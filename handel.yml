@@ -1,16 +1,14 @@
 version: 1
 
-name: ben-test-apigateway-app
+name: ben
 
 environments:
   dev:
     app:
       type: apigateway
-      proxy:
-        path_to_code: .
-        runtime: python3.6
-        handler: index.handler
-        memory: 128
-        timeout: 5
-        environment_variables:
-          MY_FIRST_VAR: pokeID
+      swagger: "./swagger.json"
+	 orgsaccess:
+      type: apiaccess
+      aws_services:
+      - lambda
+

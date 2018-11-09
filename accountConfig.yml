@@ -1,5 +1,5 @@
 account_id: "398230616010"
-region: "us-west-1" 
+region: "us-west-2" 
 vpc: "vpc-03b4b54482648a14d"
 public_subnets: 
 - "subnet-0f552cd68da2f5756"

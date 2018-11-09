@@ -1,0 +1,19 @@
+version: 1
+
+name: ben
+
+pipelines:
+  dev:
+    phases:
+    - type: github
+      name: Github
+      owner: bknutson123
+      repo: codingChallenge
+      branch: master
+    - type: codebuild
+      name: Build
+      build_image: aws/codebuild/python:3.6
+    - type: handel
+      name: Deploy
+      environments_to_deploy:
+      - dev

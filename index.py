@@ -5,8 +5,7 @@ import logging
 #LOGGER = logging.getLogger()
 #LOGGER.setLevel(logging.INFO)
 
-
-def lambda_handler(event, context):
+def handler(event, context):
     # TODO implement
     #LOGGER.info(event);
     poke = event['params']['path']['operand'];
