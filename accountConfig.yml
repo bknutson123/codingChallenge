@@ -1,0 +1,15 @@
+account_id: "398230616010"
+region: "us-west-1" 
+vpc: "vpc-03b4b54482648a14d"
+public_subnets: 
+- "subnet-0f552cd68da2f5756"
+private_subnets: 
+- "subnet-0def6faa6a66c2df3"
+data_subnets: 
+- "subnet-018e8e0d6fc19270a"
+handel_resource_tags:
+  "env": "dev"
+  "Name": "ben-test-app" 
+  "data-sensitivity": "public"
+  "team": "BETA"
+	
