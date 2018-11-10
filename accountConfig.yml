@@ -9,7 +9,7 @@ data_subnets:
 - "subnet-018e8e0d6fc19270a"
 handel_resource_tags:
   "env": "dev"
-  "Name": "ben-test-app" 
+  "Name": "test-app" 
   "data-sensitivity": "public"
   "team": "BETA"
 	
